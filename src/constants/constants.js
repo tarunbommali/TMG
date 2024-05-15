@@ -1,0 +1,1 @@
+export const APOSTROPHE_IMG_URL = "https://cdn.imgbin.com/6/13/10/imgbin-quotation-mark-computer-icons-infinidat-apostrophe-quotation-Pi7K06uvnu7ucP7s9G4TizT6M.jpg"
