@@ -3,29 +3,29 @@ import { Link } from "react-router-dom";
 
 export const Navbar = () => {
   return (
-    <nav className="flex justify-between py-3 px-4 bg-slate-400 text-lg">
+    <nav className="flex justify-between py-3 px-4 bg-[#3f4347] text-white text-lg">
       <ul className="flex">
-        <li className="ml-2 mr-2 hover:bg-[#ccc]">
+        <li className="mr-2 px-2 py-1  hover:bg-[#dc2626] rounded-lg ">
           <Link href="#home">HOME</Link>
         </li>
-        <li className="ml-2 mr-2 hover:bg-[#ccc]">
-          <Link href="#services">SERVICES</Link>
+        <li className="ml-2 mr-2 px-2 py-1 hover:bg-[#dc2626] rounded-lg ">
+          <Link to="/services">SERVICES</Link>
         </li>
-        <li className="ml-2 mr-2 hover:bg-[#ccc]">
+        <li className="ml-2 mr-2 px-2 py-1 hover:bg-[#dc2626] rounded-lg ">
           <Link to="/about">ABOUT</Link>
         </li>
-        <li className="ml-2 mr-2 hover:bg-[#ccc]">
-          <Link href="#blog">BLOG</Link>
+        <li className="ml-2 mr-2 px-2 py-1 hover:bg-[#dc2626] rounded-lg ">
+          <Link to="blogs">BLOG</Link>
         </li>
-        <li className="ml-2 mr-2 hover:bg-[#ccc]">
-          <Link href="#faqs">FAQs</Link>
+        <li className="ml-2 mr-2 px-2 py-1 hover:bg-[#dc2626] rounded-lg ">
+          <Link to="/faq">FAQs</Link>
         </li>
       </ul>
       <ul className="flex">
-        <li className="ml-2 mr-2 hover:bg-[#ccc]">
+        <li className="ml-2 mr-2 px-2 py-1 hover:bg-[#dc2626] rounded-lg ">
           <Link href="#cart">CART</Link>
         </li>
-        <li className="ml-2 mr-2 hover:bg-[#ccc]">
+        <li className="ml-2 mr-2 px-2 py-1 hover:bg-[#dc2626] rounded-lg ">
           <Link href="#login">LOGIN</Link>
         </li>
       </ul>

@@ -5,6 +5,9 @@ import AboutUs from "./routes/AboutUs";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import { Navbar } from "./components/Navbar";
+import FAQ from "./routes/FAQPage";
+import Blogs from "./routes/Blogs";
+import Services from "./routes/Services";
 
 const AppLayout = () => {
   return (
@@ -32,6 +35,18 @@ export const appRouter = createBrowserRouter([
         path: "/about",
         element: <AboutUs />,
       },
+      {
+        path: '/faq',
+        element: <FAQ/>
+      },
+      {
+        path: '/services',
+        element:<Services/>
+      },
+      {
+        path: '/blogs',
+        element: <Blogs/>
+      }
     ],
   },
 ]);

@@ -19,10 +19,16 @@ const PriceComparisonChart = () => {
         <tbody>
           {carPricesData.map((item, index) => (
             <tr key={index} className="text-lg">
-              <td className="text-left px-4 py-2 ">{item.brand}</td>
-              <td className="text-left px-4 py-2 line-through">₹{item.prices["Authorized Service Center"]}</td>
-              <td className="text-left px-4 py-2 line-through">₹{item.prices["Local Mechanic"]}</td>
-              <td className="text-left px-4 py-2 text-red-500 font-semibold ">₹{item.prices["Tech Mech Guy"]}</td>
+              <td className="text-left px-4 py-2">{item.brand}</td>
+              <td className="text-left px-4 py-2 line-through">
+                ₹{item.prices["Authorized Service Center"]}
+              </td>
+              <td className="text-left px-4 py-2 line-through">
+                ₹{item.prices["Local Mechanic"]}
+              </td>
+              <td className="text-left px-4 py-2 text-red-500 font-semibold ">
+                ₹{item.prices["Tech Mech Guy"]}
+              </td>
             </tr>
           ))}
         </tbody>

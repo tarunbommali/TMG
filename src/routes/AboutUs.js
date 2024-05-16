@@ -23,7 +23,7 @@ const AboutUs = () => {
             <p>Role: UI/UX Designer</p>
           </li>
           <li className="mx-4">
-            <h1 className="text-blue-400 font-bold">Tarun</h1>
+            <a href="https://tarunbommali.netlify.app/"   target="__blank" className="text-blue-400 font-bold hover:underline">Tarun</a>
             <p>Role : SDE</p>
           </li>
         </ul>
